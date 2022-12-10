@@ -15,9 +15,8 @@ header img {
   text-decoration: none;
 }
 
-.a:hover {
+a:hover {
   color: #a6b1c6;
-  text-decoration: none;
 }
 
 a:visited {
