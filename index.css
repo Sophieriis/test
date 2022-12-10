@@ -13,11 +13,13 @@ header {
   background-color: var(--offWhite);
   font-family: "Nunito", sans-serif;
   color: #556382;
+  padding: 20px;
 }
 
 header img {
   text-align: center;
   width: 350px;
+  margin: 15px;
 }
 
 .logo {
