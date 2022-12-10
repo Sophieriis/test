@@ -4,7 +4,7 @@
   --brightBlue: #01009f;
   --darkBlue: #556382;
   --darkYellow: #ebddba;
-  --lighYellow: #f6f1e4;
+  --lightYellow: #f6f1e4;
   --gray: #e4e3e3;
   --offWhite: #f9f9f9;
 }
@@ -46,4 +46,21 @@ nav {
   width: 900px;
   text-align: center;
   margin: auto;
+}
+
+/******/
+
+#box1 {
+  background: var(--lightYellow);
+  padding: 3rem;
+  font-family: "Nunito", sans-serif;
+}
+
+#box1 h1 {
+  text-align: center;
+  color: #556382;
+}
+
+#box1 p {
+  text-align: center;
 }
