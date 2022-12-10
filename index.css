@@ -4,8 +4,25 @@ header {
   background-color: white;
 }
 
+header img {
+  text-align: center;
+  width: 450px;
+}
+
 .a {
   text-align: center;
+  color: #556382;
+  text-decoration: none;
+}
+
+.a:hover {
+  color: #a6b1c6;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #556382;
+  text-decoration: none;
 }
 
 .link {
