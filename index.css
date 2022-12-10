@@ -1,7 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap");
 
+:root {
+  --brightBlue: #01009f;
+  --darkBlue: #556382;
+  --darkYellow: #ebddba;
+  --lighYellow: #f6f1e4;
+  --gray: #e4e3e3;
+  --offWhite: #f9f9f9;
+}
+
 header {
   background-color: white;
+  font-family: "Nunito", sans-serif;
+  color: #556382;
 }
 
 header img {
@@ -9,7 +20,7 @@ header img {
   width: 450px;
 }
 
-.a {
+a {
   text-align: center;
   color: #556382;
   text-decoration: none;
@@ -22,8 +33,4 @@ a:hover {
 a:visited {
   color: #556382;
   text-decoration: none;
-}
-
-.link {
-  font-family: "Nunito", sans-serif;
 }
