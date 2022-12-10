@@ -10,18 +10,21 @@
 }
 
 header {
-  background-color: white;
+  background-color: var(--offWhite);
   font-family: "Nunito", sans-serif;
   color: #556382;
 }
 
 header img {
   text-align: center;
-  width: 450px;
+  width: 350px;
+}
+
+.logo {
+  text-align: center;
 }
 
 a {
-  text-align: center;
   color: #556382;
   text-decoration: none;
 }
@@ -33,4 +36,12 @@ a:hover {
 a:visited {
   color: #556382;
   text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  text-align: center;
+  margin: auto;
 }
