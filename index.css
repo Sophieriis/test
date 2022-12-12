@@ -78,6 +78,8 @@ footer {
 #boxkunst {
   background-image: url("background01.png");
   padding: 250px;
+  font-family: "Nunito", sans-serif;
+  color: white;
 }
 
 #kunst img {
@@ -88,4 +90,9 @@ footer {
 
 #kunst {
   background: var(--lightYellow);
+}
+
+#gap {
+  background: var(--darkYellow);
+  padding: 50px;
 }
