@@ -149,3 +149,28 @@ footer {
   float: left;
   background: var(--darkYellow);
 }
+
+/*******/
+
+#kunstwide_event img {
+  width: 1520px;
+}
+
+.box2 {
+  background-color: var(--darkYellow);
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+}
+
+.img2 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text2 {
+  padding: 10rem;
+}
