@@ -56,6 +56,7 @@ footer img {
 
 footer {
   background: var(--lightYellow);
+  font-family: "Nunito", sans-serif;
 }
 
 /******/
@@ -83,13 +84,22 @@ footer {
 }
 
 #kunst img {
-  width: 483px;
+  width: 484.666666667px;
   height: 650px;
-  float: inline-start;
+  float: left;
+  padding-bottom: 100px;
+  background: var(--darkYellow);
 }
 
 #kunst {
-  background: var(--lightYellow);
+  background: var(--darkYellow);
+}
+
+#kunstwide img {
+  width: 1454px;
+  height: max-content;
+  padding-bottom: 100px;
+  background: var(--darkYellow);
 }
 
 #gap {
