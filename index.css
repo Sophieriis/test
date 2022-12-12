@@ -64,3 +64,10 @@ nav {
 #box1 p {
   text-align: center;
 }
+
+#kunst img {
+  width: 400px;
+  height: 600px;
+  text-align: center;
+  background: var(--lightYellow);
+}
