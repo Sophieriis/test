@@ -56,7 +56,7 @@ nav {
 
 /******/
 
-footer img {
+#footer01 img {
   width: 200px;
   margin-left: 70px;
   margin-top: 50px;
@@ -68,12 +68,31 @@ footer p {
   color: var(--darkBlue);
   padding-bottom: 5px;
   padding-top: 5px;
+  font-family: "Nunito", sans-serif;
 }
 
 footer {
   background: var(--lightYellow);
-  font-family: "Nunito", sans-serif;
   padding-bottom: 50px;
+}
+
+#footer02 {
+  margin-top: 82px;
+}
+
+#fb {
+  margin-left: 70px;
+  margin-top: 22px;
+}
+
+#fb img {
+  height: 40px;
+  width: 40px;
+}
+
+#grid-1_1_1 {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /******/
@@ -102,7 +121,7 @@ footer {
 }
 
 #kunst img {
-  width: 484.666666667px;
+  width: 490px;
   height: 650px;
   float: left;
   padding-bottom: 100px;
@@ -114,7 +133,7 @@ footer {
 }
 
 #kunstwide img {
-  width: 1454px;
+  width: 1470px;
   padding-bottom: 100px;
   background: var(--darkYellow);
 }
@@ -125,7 +144,7 @@ footer {
 }
 
 #kunst02 img {
-  width: 484.666666667px;
+  width: 490px;
   height: 650px;
   float: left;
   background: var(--darkYellow);
