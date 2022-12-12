@@ -42,7 +42,7 @@ a:hover {
 }
 
 a:visited {
-  color: #556382;
+  /* color: #556382; */
   text-decoration: none;
 }
 
