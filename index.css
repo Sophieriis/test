@@ -97,7 +97,6 @@ footer {
 
 #kunstwide img {
   width: 1454px;
-  height: max-content;
   padding-bottom: 100px;
   background: var(--darkYellow);
 }
@@ -105,4 +104,11 @@ footer {
 #gap {
   background: var(--darkYellow);
   padding: 50px;
+}
+
+#kunst02 img {
+  width: 484.666666667px;
+  height: 650px;
+  float: left;
+  background: var(--darkYellow);
 }
