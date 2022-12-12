@@ -173,4 +173,6 @@ footer {
 
 .text2 {
   padding: 10rem;
+  font-family: "Nunito", sans-serif;
+  color: var(--darkBlue);
 }
