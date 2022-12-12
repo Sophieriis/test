@@ -9,6 +9,11 @@
   --offWhite: #f9f9f9;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-color: var(--offWhite);
   font-family: "Nunito", sans-serif;
@@ -33,6 +38,7 @@ a {
 
 a:hover {
   color: #a6b1c6;
+  font-size: 20px;
 }
 
 a:visited {
@@ -52,18 +58,30 @@ nav {
 
 footer img {
   width: 200px;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+footer p {
+  margin-left: 70px;
+  background: var(--lightYellow);
+  color: var(--darkBlue);
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 footer {
   background: var(--lightYellow);
   font-family: "Nunito", sans-serif;
+  padding-bottom: 50px;
 }
 
 /******/
 
 #box1 {
   background: var(--lightYellow);
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-family: "Nunito", sans-serif;
 }
 
