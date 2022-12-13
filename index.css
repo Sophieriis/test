@@ -190,3 +190,19 @@ footer {
 #index01 h1 {
   font-style: italic;
 }
+
+#index01 h2 {
+  font-weight: lighter;
+}
+
+#gapindex {
+  background: var(--lightYellow);
+  padding: 50px;
+}
+
+#textindex {
+  padding: 10rem;
+  font-family: "Nunito", sans-serif;
+  color: var(--darkBlue);
+  background: var(--darkYellow);
+}
