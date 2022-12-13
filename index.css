@@ -90,6 +90,13 @@ footer {
   width: 40px;
 }
 
+#fb2 img {
+  text-align: center;
+  margin: 15px;
+  height: 40px;
+  width: 40px;
+}
+
 #grid-1_1_1 {
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr;
