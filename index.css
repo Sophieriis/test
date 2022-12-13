@@ -234,3 +234,13 @@ footer {
 #container video {
   width: 800px;
 }
+
+#indexbottom img {
+  width: 1470px;
+}
+
+.grid3 {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+}
