@@ -201,8 +201,13 @@ footer {
 }
 
 #textindex {
-  padding: 10rem;
+  padding: 5rem;
   font-family: "Nunito", sans-serif;
   color: var(--darkBlue);
   background: var(--darkYellow);
+  text-align: center;
+}
+
+#textindex p {
+  padding-top: 15px;
 }
