@@ -218,5 +218,19 @@ footer {
 
 .gridindex {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1fr 1.3fr;
+}
+
+#container {
+  position: relative;
+  display: flex;
+  width: max-content;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid var(--darkBlue);
+}
+
+#container video {
+  width: 800px;
 }
