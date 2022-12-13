@@ -176,3 +176,17 @@ footer {
   font-family: "Nunito", sans-serif;
   color: var(--darkBlue);
 }
+
+/************/
+
+#index01 {
+  background-image: url("index01.png");
+  padding: 175px;
+  font-family: "Nunito", sans-serif;
+  color: var(--darkBlue);
+  text-align: center;
+}
+
+#index01 h1 {
+  font-style: italic;
+}
