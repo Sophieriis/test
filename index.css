@@ -211,3 +211,12 @@ footer {
 #textindex p {
   padding-top: 15px;
 }
+
+.boxindex {
+  background-color: var(--darkYellow);
+}
+
+.gridindex {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+}
