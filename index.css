@@ -246,10 +246,11 @@ footer {
   justify-content: center;
   align-items: center;
   border: 10px solid var(--darkBlue);
+  width: 800px;
 }
 
 #container video {
-  width: 800px;
+  max-width: 100%;
 }
 
 #indexbottom img {
