@@ -109,6 +109,12 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media only screen and (max-width: 700px) {
+  #grid-1_1_1 {
+    grid-template-columns: 1fr;
+  }
+}
+
 /******/
 
 #box1 {
@@ -210,6 +216,7 @@ footer {
 
 #text2 p {
   max-width: 600px;
+  min-width: 100px;
   text-align: left;
 }
 
@@ -268,12 +275,13 @@ footer {
   height: max-content;
   justify-content: center;
   align-items: center;
-  border: 10px solid var(--darkBlue);
-  width: 800px;
+  border: 20px solid var(--darkBlue);
+  max-width: fit-content;
 }
 
 #container video {
   max-width: 100%;
+  height: auto;
 }
 
 #indexbottom img {
