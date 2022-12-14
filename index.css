@@ -160,7 +160,8 @@ footer {
 /*******/
 
 #kunstwide_event img {
-  width: 1470px;
+  /* width: 1470px; */
+  max-width: 100%;
 }
 
 .box2 {
@@ -217,6 +218,8 @@ footer {
 
 #textindex p {
   padding-top: 15px;
+  padding-left: 400px;
+  padding-right: 400px;
 }
 
 .boxindex {
